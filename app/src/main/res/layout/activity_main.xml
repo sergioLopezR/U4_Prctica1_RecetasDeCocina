@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#613434"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="35dp">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="3"
+                android:layout_marginLeft="5dp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/identificacion"
+                android:inputType="number"
+                android:hint="Id"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="14"
+                android:layout_marginLeft="5dp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/nombre"
+                android:hint="Nombre"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="17"
+                android:layout_marginLeft="5dp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/ingredientes"
+                android:hint="Ingredientes"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="17"
+                android:layout_marginLeft="5dp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/preparacion"
+                android:hint="Preparacion"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="17"
+                android:layout_marginLeft="5dp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/observaciones"
+                android:hint="Observaciones"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="9"
+                android:layout_gravity="center"
+                android:text="Guardar"
+                android:background="@drawable/botonredondo"
+                android:textColor="#FFFFFF"
+                android:id="@+id/guardar"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="9"
+                android:layout_gravity="center"
+                android:text="Consultar"
+                android:background="@drawable/botonredondo"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/consultar"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="9"
+                android:layout_gravity="center"
+                android:text="Eliminar"
+                android:background="@drawable/botonredondo"
+                android:textColor="#FFFFFF"
+                android:id="@+id/eliminar"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="9"
+                android:layout_gravity="center"
+                android:text="Modificar"
+                android:background="@drawable/botonredondo"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/modificar"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
